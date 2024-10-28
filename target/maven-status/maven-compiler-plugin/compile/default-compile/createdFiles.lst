@@ -1,0 +1,7 @@
+gyuri\AbstractComponents\AbstractComponent.class
+gyuri\pageobjects\ConfirmOrderPage.class
+gyuri\pageobjects\CartPage.class
+gyuri\pageobjects\OrderPage.class
+gyuri\pageobjects\PaymentPage.class
+gyuri\pageobjects\LandingPage.class
+gyuri\pageobjects\ProductCatalogue.class

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-23T08:16:42 CEST" name="Suite" finished-at="2024-10-23T08:16:58 CEST" duration-ms="16799">
+    <groups>
+      <group name="PurchaseOrder">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:gyuri.tests.SubmitOrderTest@5ab956d7]" name="submitOrder" class="gyuri.tests.SubmitOrderTest"/>
+      </group> <!-- PurchaseOrder -->
+    </groups>
+    <test started-at="2024-10-23T08:16:42 CEST" name="Error validatios test" finished-at="2024-10-23T08:16:42 CEST" duration-ms="14">
+    </test> <!-- Error validatios test -->
+    <test started-at="2024-10-23T08:16:42 CEST" name="Submit Order Test" finished-at="2024-10-23T08:16:58 CEST" duration-ms="16799">
+      <class name="gyuri.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:gyuri.tests.SubmitOrderTest@5ab956d7]" started-at="2024-10-23T08:16:42 CEST" name="launchApplication" finished-at="2024-10-23T08:16:45 CEST" duration-ms="3244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:gyuri.tests.SubmitOrderTest@5ab956d7]" started-at="2024-10-23T08:16:45 CEST" name="submitOrder" data-provider="getData" finished-at="2024-10-23T08:16:50 CEST" duration-ms="5435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userPassword=Negen1234, userEmail=villanostra@freemail.hu, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:gyuri.tests.SubmitOrderTest@5ab956d7]" started-at="2024-10-23T08:16:50 CEST" name="tearDown" finished-at="2024-10-23T08:16:51 CEST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:gyuri.tests.SubmitOrderTest@5ab956d7]" started-at="2024-10-23T08:16:51 CEST" name="launchApplication" finished-at="2024-10-23T08:16:53 CEST" duration-ms="2761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:gyuri.tests.SubmitOrderTest@5ab956d7]" started-at="2024-10-23T08:16:53 CEST" name="submitOrder" data-provider="getData" finished-at="2024-10-23T08:16:58 CEST" duration-ms="4810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userPassword=Testabcd, userEmail=gybeger@freemail.hu, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:gyuri.tests.SubmitOrderTest@5ab956d7]" started-at="2024-10-23T08:16:58 CEST" name="tearDown" finished-at="2024-10-23T08:16:58 CEST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- gyuri.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
