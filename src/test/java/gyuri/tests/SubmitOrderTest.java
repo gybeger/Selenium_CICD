@@ -62,7 +62,7 @@ public class SubmitOrderTest extends BaseTest {
 	@DataProvider
 	/*public Object[][] getData() {
 		return new Object[][] {{"villanostra@freemail.hu", "Negen1234", "ZARA COAT 3"}, {"gybeger@freemail.hu","Negen1234", "ADIDAS ORIGINAL"}};
-	}*/
+	}*/ 
 	/*
 	public Object[][] getData() {
 		HashMap<String, String> map = new HashMap<String, String>();
